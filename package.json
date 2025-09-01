@@ -1,15 +1,16 @@
 {
+  
   "name": "marvedge-backend",
   "version": "1.0.0",
-  "description": "Backend for Marvedge Interactive Product Tour Platform",
-  "main": "dist/server.js",
+  "description": "...",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
-    "postinstall": "prisma generate",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/src/server.js",
+    "postinstall": "prisma generate"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
